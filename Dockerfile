@@ -6,7 +6,7 @@ COPY requirements.txt /requirements.txt
 
 RUN cd /
 RUN pip3 install -U pip && pip3 install -U -r requirements.txt
-RUN mkdir /VJ-Post-Search-Bot
-WORKDIR /VJ-Post-Search-Bot
-COPY . /VJ-Post-Search-Bot
+RUN mkdir /Bot
+WORKDIR /Bot
+COPY . /Bot
 CMD gunicorn app:app & python3 main.py
