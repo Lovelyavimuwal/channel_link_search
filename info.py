@@ -1,5 +1,5 @@
-API_ID       = "18779212"
-API_HASH     = "1f6b28d46b9851b73c80553f0d2f5ea5"
+API_ID       = 
+API_HASH     = ""
 BOT_TOKEN    = ""
 SESSION      = ""
 DATABASE_URI = "mongodb+srv://dazyky:N2wX9zV57ceeslrl@cluster0.vgt2teh.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
